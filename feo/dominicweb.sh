@@ -82,7 +82,6 @@ FEO=(
 "mlg-toky-elo.mp3"
 "mlg-toky-enga.mp3"
 "mlg-toky-entana.mp3"
-"siny"
 "mlg-toky-erotra.mp3"
 "mlg-toky-eto.mp3"
 "mlg-toky-ezaka.mp3"
@@ -202,7 +201,6 @@ FEO=(
 "mlg-toky-maty.mp3"
 "mlg-toky-mavo.mp3"
 "mlg-toky-mena.mp3"
-"varotra"
 "mlg-toky-miainga.mp3"
 "mlg-toky-mianatra.mp3"
 "mlg-toky-miaramila.mp3"
@@ -333,10 +331,10 @@ FEO=(
 "mlg-toky-zomà.mp3"
 )
 
-URL=http://dominicweb.eu/en/malagasy/mlg
+URL="http://dominicweb.eu/media/?lang=eng&key=mlg"
 
 for i in ${FEO[@]}
 do
-   echo curl ${URL}/${i} --output kapila/${i}
-   curl ${URL}/${i} --output kapila/${i}
+   echo curl "${URL}/${i}" --output kapila/${i}
+   curl "${URL}/${i}" --output kapila/${i}
 done
