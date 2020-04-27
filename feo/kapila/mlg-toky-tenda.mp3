@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+
+
+<head>
+	<meta name="google-site-verification" content="g_EtpwJyLhAc1lOQO07mZQL2PAJELubEO9qeFV_BVBA" />
+	<meta charset="UTF-8" />
+	<meta name="author" content="Dominik M. Ramík" /> 
+	<title>Oups ... ! |  Dominik M. Ramík</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style>
+	@font-face {
+	font-family: 'Open Sans';
+	src: url('http://dominicweb.eu/wp-content/themes/traveler4/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+		url('http://dominicweb.eu/wp-content/themes/traveler4/fonts/opensans-regular-webfont.ttf')  format('truetype');
+	}
+	</style>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://dominicweb.eu/wp-content/themes/traveler4/style.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://dominicweb.eu/wp-content/themes/traveler4/gallery.css" />
+	<style>
+				
+	html {background: rgba(76, 64, 75, 0.7) url('http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-1.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+	.shadowbox {background: rgba(76, 64, 75, 0.7); color: rgba(225, 209, 229, 1.0);}
+	article table {color: rgba(225, 209, 229, 1.0); border-collapse: collapse; margin-bottom: 15px;}
+	article td {border: 1px solid rgba(225, 209, 229, 1.0);}
+	.transparentbox{color: rgba(225, 209, 229, 0.2);}
+	.shadowbox a{color: rgba(225, 209, 229, 1.0);}
+	.shadowbox a:hover{color: white !important;}
+	.transparentbox a{color: rgba(225, 209, 229, 0.2);}
+	.shadowbox .weblogo{border-bottom: 1px solid rgba(225, 209, 229, 0.2);}
+	.shadowbox .current_page_item a {color: rgb(214, 111, 53) !important;}
+	.shadowbox .current_page_item .page_item a {color: rgba(225, 209, 229, 1.0) !important;}
+	article h1 {color: rgb(214, 111, 53) !important;}
+	article a {color: rgb(214, 111, 53) !important;}
+	#picturebox_thumbnails a{color: rgba(225, 209, 229, 1.0);}
+	#picturebox_thumbnails a:hover img{border: 2px solid rgba(225, 209, 229, 1.0);}
+	.bgroverlay{color: rgba(225, 209, 229, 0.2);}
+	.portfolio .mediarss2web .image{color: rgba(225, 209, 229, 1.0);}
+	#licence{ border-top: 1px solid rgba(225, 209, 229, 0.2);}
+	article .highlight {color: rgb(214, 111, 53) !important;}
+	
+	#PPtxt a {color: rgb(214, 111, 53) !important;}
+	#PPdnl a {color: rgb(214, 111, 53) !important;}
+	#PPnav a {color: rgb(214, 111, 53) !important;}
+	
+	.dico h1, h2, h3, h4 {background-color: rgba(225, 209, 229, 0.2); margin: 5px; padding: 5px;}
+	.dico h1 {font-size: 13pt; padding-left: 5px;}
+	.dico h2 {font-size: 13pt; padding-left: 5px;}
+	.dico h3 {font-size: 13pt; padding-left: 10px;}
+	.dico h4 {font-size: 13pt; padding-left: 20px;}
+	.dico .leading {color: rgb(214, 111, 53); font-variant: small-caps; font-size: 110%;}
+	.dico .sound {color: rgb(214, 111, 53) ; cursor: hand;}
+	.dico .sound-only {cursor: hand;}
+	.dico{text-align: left;}
+	.dico .index { -moz-columns: auto 3; -webkit-columns: auto 3; columns: auto 3;}
+	.dico .index ul {margin-left: 20px;}
+	.dico .index ul ul {margin-left: 15px;}
+	@media all and (max-width: 580px) {.dico .index { -moz-columns: auto auto; -webkit-columns: auto auto; columns: auto auto;}}
+		
+	#playercontainer audio{ margin-bottom: 10px; }
+	#playercontainer{ display: table; position: absolute; height: 100%; width: 100%; }
+	#playerwin{ display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.9); text-align: center; color: rgba(225, 209, 229, 1.0); }
+	#playerwin a{ color: rgb(214, 111, 53); text-decoration: none; }
+	
+	.caritem a{color: rgba(225, 209, 229, 1.0) !important;}
+	.audiodiv{background-color: rgba(225, 209, 229, 0.2);}
+	
+	article i { color: rgb(214, 111, 53);}
+	article i.ex { color: rgb(214, 111, 53); font-variant: small-caps; font-size: 120%;}
+	
+	.transparentbox .weblogo a, .transparentbox .langbox, .transparentbox .langbox a {
+		color: rgba(225, 209, 229, 1.0) !important;
+	}
+	.weblogo, .langbox {
+		padding-left: 10px;
+	}
+
+	article hr {border: 1px solid rgb(214, 111, 53) !important; margin-bottom: 8px; margin-top: 8px;}
+	
+	.button {}
+	</style>	
+		
+	<script async src="http://dominicweb.eu/wp-content/themes/traveler4/oap.min.js"></script>
+	<script async src="http://dominicweb.eu/wp-content/themes/traveler4/lightbox.js"></script>
+	<script async src="http://dominicweb.eu/wp-content/themes/traveler4/script.js"></script>
+	<script>
+		function switchTheme(id){
+			loadingTheme = 'yes';
+			el('picturebox_thumbnails').style.display = 'none';
+			el('ajaxloader').style.display = 'block';
+			httpGet("http://dominicweb.eu/wp-content/themes/traveler4/functions.php?theme="+id);
+		}
+		
+		function sound(snd){
+			player = initSound();
+			playerwin = document.getElementById('playerwin');
+			playerwin.style.display = "block";
+			player.setAttribute('src', 'http://dominicweb.eu/media/?lang=eng&key='+snd);
+		}
+		function initSound(){
+			player = document.getElementById('sndplayer');
+			if(!player){
+				player = document.createElement('audio');
+				player.id = 'sndplayer';
+				player.setAttribute('controls', 'true');
+				player.setAttribute('autoplay', 'true');
+				player.innerHTML = "Your browser does not support playing audio.";
+				
+				playerwin = document.createElement("div"); 
+				playerwin.id = "playerwin";
+				
+				container = document.createElement("div"); 
+				container.id = 'playercontainer';
+								
+				info = document.createElement("div");
+				info.innerHTML = "The sound will be played automatically once completely loaded. <a href='javascript:hideSound();'>[Close]</a>";
+				
+				container.appendChild(player);
+				container.appendChild(info);
+				playerwin.appendChild(container);
+				
+				container.innerHTML = "<div style='display: table-cell; vertical-align: middle;'><div style='margin-left: auto; margin-right: auto;'>" + container.innerHTML + "</div></div>";
+				
+				document.getElementsByTagName("body")[0].appendChild(playerwin);
+			}
+			player.addEventListener('ended', function(){
+				setTimeout(function(){hideSound();}, 1000);
+			}, false);
+						
+			return player;
+		}
+		function hideSound(){
+			document.getElementById('sndplayer').pause();
+			playerwin = document.getElementById('playerwin');
+			playerwin.style.display = "none";
+		}
+	</script>
+	
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+	  (adsbygoogle = window.adsbygoogle || []).push({
+		google_ad_client: "ca-pub-7711522841737725",
+		enable_page_level_ads: true
+	  });
+	</script>
+	
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/dominicweb.eu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://dominicweb.eu/wp-includes/css/dist/block-library/style.min.css?ver=5.1.4' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='http://dominicweb.eu/wp-json/' />
+
+<meta http-equiv="Content-Language" content="en-US" />
+</head>
+<body onResize="resized();" onLoad="pageLoad(); initSound();">
+	<span id="top"></span>
+	<div class="shadowbox" id="menubutton" onClick="el('nav').style.display = 'block'; el('menubutton').style.display = 'none';" title="Show menu">
+		<div class="weblogo" id="weblogo" style="border: 0px solid black;">
+			<span style="font-size: 150%;">dominic<span id="logoshine">web</span></span>
+			<span style="float: right;"><img src="http://dominicweb.eu/media/img/menu.png" style="vertical-align: middle; padding: 3px;" /> Show menu</span>
+		</div>
+	</div>
+	<nav class="box shadowbox" id="nav" onMouseOver="shadowbox('on')" onMouseOut="shadowbox('off')">
+		<div class="picturebox" id="picturebox" onMouseOver="cinema('on');" onMouseOut="cinema('off');" onBlur="cinema('off');" onFocus="cinema('on');">
+			
+			<div id="ajaxloader" style="display: none;"><img src="http://dominicweb.eu/wp-content/themes/traveler4/ajax.gif" /></div>
+			<div id="picturebox_thumbnails">
+				<span class="small"><img id="activethemethumb" title="Madagaskar 2009, Antsirabe" style="border: 2px solid white; opacity: 0.2; margin-right: 3px; margin-left: 3px;" src="http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-1.png" /></span><span class="small"><a href="#" onClick="switchTheme('1')"><img title="Madagaskar 2009, Morondava" src="http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-2.png" /></a></span><span class="small"><a href="#" onClick="switchTheme('2')"><img title="Futuna 2009, Poi" src="http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-3.png" /></a></span><span class="small"><a href="#" onClick="switchTheme('3')"><img title="Madagaskar 2009, Miandrivazo" src="http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-4.png" /></a></span><span class="small"><a href="#" onClick="switchTheme('4')"><img title="Tanna 2013, Lowanatom" src="http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-5.png" /></a></span><span class="small"><a href="#" onClick="switchTheme('5')"><img title="Madagaskar 2013, Mandrarano" src="http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-6.png" /></a></span><span class="small"><a href="#" onClick="switchTheme('6')"><img title="Futuna 2009, Tufulega" src="http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-7.png" /></a></span><span class="small"><a href="#" onClick="switchTheme('7')"><img title="Madagaskar 2013, Ihosy" src="http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-8.png" /></a></span><span class="small"><a href="#" onClick="switchTheme('8')"><img title="Vanuatu 2013, Lowanatom" src="http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-9.png" /></a></span><span class="small"><a href="#" onClick="switchTheme('9')"><img title="Madagaskar 2013, Ihosy" src="http://dominicweb.eu/wp-content/themes/traveler4/backgrounds/bgr-10.png" /></a></span>			<br/>
+			Photo: Madagaskar 2009, Antsirabe			
+			</div>
+		</div>
+		
+		
+		<div class="weblogo" id="weblogo"><a href="http://dominicweb.eu/en" title="Dominik Maximilián Ramík">dominic<span id="logoshine">web</span></a></div>
+				
+		<div class="langbox" id="langbox">
+			<span ><a href="http://dominicweb.eu/malagasy/mlg/mlg-toky-tenda.mp3" title="Česky">CZ&nbsp;</a></span> | 
+			<span class="current_page_item"><a href="http://dominicweb.eu/en/malagasy/mlg/mlg-toky-tenda.mp3" title="In English">EN&nbsp;</a></span> | 
+			<span ><a href="http://dominicweb.eu/fr/malagasy/mlg/mlg-toky-tenda.mp3" title="En français">FR&nbsp;</a></span> &nbsp;&nbsp;&nbsp;
+			<a href="http://dominicweb.eu/en/feed/">RSS</a> | <a href="http://dominicweb.eu/en/feed/atom/">ATOM</a>
+		</div>
+		
+		<div class="menu" id="menu">
+							<ul><li class="page_item"><a href="http://dominicweb.eu/en">Home | Blog</a>
+
+				<ul class="children">
+					<li class="page_item"><a href="http://dominicweb.eu/en/blog/category/web-updates/">New Posts (20)</a></li><li class="page_item"><a href="http://dominicweb.eu/en/blog/category/programming/">Programming (1)</a></li><li class="page_item current_page_item"><a href="http://dominicweb.eu/en/blog/category/various/">Various (5)</a></li>								
+					<li class="page_item"><a href="http://dominicweb.eu/en/blog">Blog archive (26)</a></li>
+				</li></ul>
+			</ul>
+						<div class="completeMenu"><ul><li class="page_item page-item-63 page_item_has_children"><a href="http://dominicweb.eu/en/photo-gallery/">Photo gallery / Portfolio</a><ul class='children'><li class="page_item page-item-1412"><a href="http://dominicweb.eu/en/photo-gallery/astrophoto/">Astronomy photos</a></li></ul></li><li class="page_item page-item-52 page_item_has_children"><a href="http://dominicweb.eu/en/my-travels/">Stories from travels</a><ul class='children'><li class="page_item page-item-1804"><a href="http://dominicweb.eu/en/my-travels/2016-philippines/">2016 Philippines</a></li><li class="page_item page-item-1803"><a href="http://dominicweb.eu/en/my-travels/2016-bolivie/">2016 Bolivia</a></li><li class="page_item page-item-1797"><a href="http://dominicweb.eu/en/my-travels/2015-vanuatu-pentecost/">2015 Vanuatu, Pentecost</a></li><li class="page_item page-item-1553"><a href="http://dominicweb.eu/en/my-travels/2015-cyclone-pam-tanna/">2015 Cyclone Pam on Tanna</a></li><li class="page_item page-item-1791"><a href="http://dominicweb.eu/en/my-travels/2015-vanuatu-espiritu-santo/">2015 Vanuatu, Espiritu Santo, Port Olry</a></li><li class="page_item page-item-1772"><a href="http://dominicweb.eu/en/my-travels/2014-vanuatu-ambrym/">2014 Vanuatu, Ambrym</a></li><li class="page_item page-item-1437"><a href="http://dominicweb.eu/en/my-travels/2014-vanuatu-espiritu-santo-port-olry/">2014 Vanuatu, Espiritu Santo, Port Olry</a></li><li class="page_item page-item-354 page_item_has_children"><a href="http://dominicweb.eu/en/my-travels/2013-lowanatom-tanna/">2013-now Vanuatu, Lowanatom mission</a><ul class='children'><li class="page_item page-item-1483"><a href="http://dominicweb.eu/en/my-travels/2013-lowanatom-tanna/lowanatom-village/">Lowanatom village</a></li></ul></li><li class="page_item page-item-352"><a href="http://dominicweb.eu/en/my-travels/2013-madagaskar/">2013 Madagascar</a></li><li class="page_item page-item-340"><a href="http://dominicweb.eu/en/my-travels/2009-2012-francie-pariz/">2009-2012 France, Paris (PhD)</a></li><li class="page_item page-item-338"><a href="http://dominicweb.eu/en/my-travels/2009-madagaskar/">2009 Madagascar</a></li><li class="page_item page-item-334"><a href="http://dominicweb.eu/en/my-travels/2009-italie-giuliano/">2009 Italy, Giugliano</a></li><li class="page_item page-item-648"><a href="http://dominicweb.eu/en/my-travels/2009-nouvelle-caledonie/">2009 South Pacific, New Caledonia</a></li><li class="page_item page-item-327"><a href="http://dominicweb.eu/en/my-travels/2008-futuna/">2008 South Pacific, Futuna</a></li><li class="page_item page-item-325"><a href="http://dominicweb.eu/en/my-travels/2008-vanuatu/">2008 South Pacific, Vanuatu</a></li><li class="page_item page-item-323"><a href="http://dominicweb.eu/en/my-travels/2008-wallis/">2008 South Pacific, Wallis</a></li><li class="page_item page-item-321"><a href="http://dominicweb.eu/en/my-travels/2007-irsko-dublin-galway/">2007 Ireland, Dublin, DCU, Galway</a></li><li class="page_item page-item-319"><a href="http://dominicweb.eu/en/my-travels/2006-santiago-de-compostela/">2006 Santiago de Compostela</a></li><li class="page_item page-item-317"><a href="http://dominicweb.eu/en/my-travels/2005-irsko/">2005 Ireland, Galway, Omagh (UK)</a></li><li class="page_item page-item-295"><a href="http://dominicweb.eu/en/my-travels/2004-francie-lurdy/">2004 France, Lourdes</a></li><li class="page_item page-item-716"><a href="http://dominicweb.eu/en/my-travels/short-trips/">Short trips</a></li></ul></li><li class="page_item page-item-1827"><a href="http://dominicweb.eu/en/vanuatu-sky/">Vanuatu Sky - native astronomy of Vanuatu</a></li><li class="page_item page-item-56 page_item_has_children"><a href="http://dominicweb.eu/en/dictionaries/">Dictionaries and languages</a><ul class='children'><li class="page_item page-item-58"><a href="http://dominicweb.eu/en/dictionaries/rosary-prayers/">Christian Prayers of the World with Audio Recorded</a></li><li class="page_item page-item-20218"><a href="http://dominicweb.eu/en/dictionaries/south-american-native-languages-keyboard/">South American Native Languages Keyboard</a></li><li class="page_item page-item-1637"><a href="http://dominicweb.eu/en/dictionaries/polyglot-keyboard/">PolyglotKeyboard</a></li><li class="page_item page-item-1612"><a href="http://dominicweb.eu/en/dictionaries/african-keyboard/">African languages keyboard</a></li></ul></li><li class="page_item page-item-31 page_item_has_children"><a href="http://dominicweb.eu/en/fakauvea-wallisien/">Wallisian language</a><ul class='children'><li class="page_item page-item-224"><a href="http://dominicweb.eu/en/fakauvea-wallisien/dico-wallisien-1/">French-Wallisian dictionary</a></li><li class="page_item page-item-229"><a href="http://dominicweb.eu/en/fakauvea-wallisien/dico-wallisien-2/">Wallisian-French dictionary</a></li><li class="page_item page-item-234"><a href="http://dominicweb.eu/en/fakauvea-wallisien/dico-wallisien-thematic/">Thematic dictionary and phrases</a></li><li class="page_item page-item-889"><a href="http://dominicweb.eu/en/fakauvea-wallisien/modlitby-ve-wallisstine/">Prayers in Wallisian</a></li></ul></li><li class="page_item page-item-34 page_item_has_children"><a href="http://dominicweb.eu/en/fakafutuna-futunien/">Futunan language</a><ul class='children'><li class="page_item page-item-239"><a href="http://dominicweb.eu/en/fakafutuna-futunien/dico-futunien-1/">French-Futunan dictionary</a></li><li class="page_item page-item-243"><a href="http://dominicweb.eu/en/fakafutuna-futunien/dico-futunien-2/">Futunan-French dictionary</a></li><li class="page_item page-item-245"><a href="http://dominicweb.eu/en/fakafutuna-futunien/dico-futunien-thematic/">Thematic dictionary and phrases</a></li></ul></li><li class="page_item page-item-37 page_item_has_children"><a href="http://dominicweb.eu/en/malagasy/">Malagasy word list with pronounciation recorded</a><ul class='children'><li class="page_item page-item-162"><a href="http://dominicweb.eu/en/malagasy/dico-malagasy-1/">Czech-Malagasy dictionary</a></li><li class="page_item page-item-169"><a href="http://dominicweb.eu/en/malagasy/dico-malagasy-2/">Malagasy-Czech dictionary</a></li><li class="page_item page-item-171"><a href="http://dominicweb.eu/en/malagasy/dico-malagasy-thematic/">Thematic dictionary and phrases</a></li><li class="page_item page-item-1860"><a href="http://dominicweb.eu/en/malagasy/database-of-malagasy-animal-names/">Database of Malagasy animal names GASYANIM</a></li></ul></li><li class="page_item page-item-39 page_item_has_children"><a href="http://dominicweb.eu/en/lenakel/">Dictionary of Netwar (Lenakel language)</a><ul class='children'><li class="page_item page-item-20406"><a href="http://dominicweb.eu/en/lenakel/language-posters/">Language posters</a></li></ul></li><li class="page_item page-item-65 page_item_has_children"><a href="http://dominicweb.eu/en/knihy/">Books</a><ul class='children'><li class="page_item page-item-365"><a href="http://dominicweb.eu/en/knihy/cesta-ktera-nekonci/">Cesta, která nekončí</a></li><li class="page_item page-item-444"><a href="http://dominicweb.eu/en/knihy/phd-thesis/">PhD thesis</a></li></ul></li><li class="page_item page-item-64"><a href="http://dominicweb.eu/en/travel-videos/">Travel videos</a></li><li class="page_item page-item-62"><a href="http://dominicweb.eu/en/contact/">Contact</a></li></ul></div>		</div>
+	</nav>
+	
+	<article class="shadowbox" id="art">
+		<div class="langbox_article" id="langbox_article" style="float: right; margin-left: 10px;">
+			<a href="http://dominicweb.eu/malagasy/mlg/mlg-toky-tenda.mp3" title="Česky"><span class="button" >Česky<br/></span></a>
+			<a href="http://dominicweb.eu/en/malagasy/mlg/mlg-toky-tenda.mp3" title="In English"><span class="button" style="display: none;">In English<br/></span></a>
+			<a href="http://dominicweb.eu/fr/malagasy/mlg/mlg-toky-tenda.mp3" title="En français"><span class="button" >En français</span></a>
+			
+			
+		</div>
+		
+		<h1>Oups ... !</h1><p>Moved, deleted or taken away by the little green men ... anyway, the page you are looking is not here. If you were searching for something particular, you may wish to use this search box. Or just browse the blog archive down here ...</p><form role="search" method="get" id="searchform" class="searchform" action="http://dominicweb.eu/en/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form><br/>﻿﻿﻿<h1>Archive</h1><div class='topadsense'><ins class="adsbygoogle" style="display:block;width: 100%;" data-ad-client="ca-pub-7711522841737725" data-ad-slot="8326947094" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><br/></div><section><h2><a href="http://dominicweb.eu/en/blog/various/nove-nahravky-ruzencovych-modliteb-7/">New rosary prayers recorded</a></h2><p class="blogroll small">2019-12-07</p>Here is another update on my project of recording rosary prayers. This time in: Ewe (Togo) | Latin (Vatican)</section><section><h2><a href="http://dominicweb.eu/en/blog/various/nove-nahravky-ruzencovych-modliteb-6/">New rosary prayers recorded</a></h2><p class="blogroll small">2019-10-18</p>Here is another update on my project of recording rosary prayers. This time in: Shona (Zimbabwe)</section><section><h2><a href="http://dominicweb.eu/en/blog/various/nove-nahravky-ruzencovych-modliteb-5/">New rosary prayers recorded</a></h2><p class="blogroll small">2019-09-11</p>Here is another update on my project of recording rosary prayers. This time in: Polish (Poland) | Wala-Rano (Vanuatu) | [&hellip;]</section><section><h2><a href="http://dominicweb.eu/en/blog/web-updates/nove-nahravky-ruzencovych-modliteb-4/">New rosary prayers recorded</a></h2><p class="blogroll small">2017-06-14</p>Here is another update on my project of recording rosary prayers. This time in: Basque (euskara), Romanian, Khmer</section><section><h2><a href="http://dominicweb.eu/en/blog/various/nove-nahravky-ruzencovych-modliteb-3/">New rosary prayers recorded</a></h2><p class="blogroll small">2017-03-11</p>Here is another update on my project of recording rosary prayers. This time in: Syriac</section><section><h2><a href="http://dominicweb.eu/en/blog/web-updates/nove-nahravky-ruzencovych-modliteb-2/">New rosary prayers recorded</a></h2><p class="blogroll small">2017-02-02</p>Here is another update on my project of recording rosary prayers. This time in: Esperanto, Russian, Ukrainian, Irish Gaelic</section><section><h2><a href="http://dominicweb.eu/en/blog/web-updates/nove-nahravky-ruzencovych-modliteb/">New rosary prayers recorded</a></h2><p class="blogroll small">2017-01-24</p>Here is another update on my project of recording rosary prayers. This time in: German, Korean</section><section><h2><a href="http://dominicweb.eu/en/blog/web-updates/nove-nahravky-modliteb-2/">New recordings of prayers</a></h2><p class="blogroll small">2017-01-13</p>Added recordings in Korean and Guarani.</section><section><h2><a href="http://dominicweb.eu/en/blog/web-updates/novy-slovnik-jazyka-netwar/">New Netwar dictionary</a></h2><p class="blogroll small">2017-01-10</p>After much work I have finally published a new and completely revised dictionary of Netwar language (Tanna) with pronunciation recordings [&hellip;]</section><section><h2><a href="http://dominicweb.eu/en/blog/web-updates/espiritu-santo-2015/">Espiritu Santo (Vanuatu) 2015</a></h2><p class="blogroll small">2016-11-14</p>Unplanned adventures are the best ones. One was waiting for me on the north of Espiritu Santo island (Vanuatu). The [&hellip;]</section>﻿	<div style="clear: both;" />
+
+<!--
+<hr/><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7711522841737725" data-ad-slot="8326947094" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script><hr/><br/>
+-->
+
+
+	<footer>
+		<div class="tothetop small">
+			Published November 15, 2016 in <a href="http://dominicweb.eu/en/blog/category/web-updates/">New Posts</a> |			
+			<a href="http://dominicweb.eu/en/contact/">Contact</a> | 
+			<a href="#top">To the top</a>
+			<div id="licence">
+			
+						 <b>Information:</b> Unless stated otherwise, the author of the content located on this website is <a href="http://dominicweb.eu/en/contact/">Dominik Maximilián Ramík</a>. All content presented here, including dictionaries, photographs, audio recordings and videos, is intended only for educational purposes of individuals visiting the website. Without the written consent of the author, the diffusion, adoption, commercial use, and creation of derivative works from the said content or its parts is strictly forbidden.
+						 			</div>
+		</div>
+
+	</footer>
+
+</article>
+<div class="bgroverlay">Madagaskar</div>
+<script type='text/javascript' src='http://dominicweb.eu/wp-includes/js/wp-embed.min.js?ver=5.1.4'></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-11631039-4', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+
+</body>
+</html>
