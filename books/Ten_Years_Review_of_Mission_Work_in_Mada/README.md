@@ -199,3 +199,7 @@ chmod +x convert_pdf_to_text_with_preprocessing.sh
 ```
 
 This script will handle converting the PDF to high-resolution images, preprocessing the images to improve OCR accuracy, running Tesseract on each image, and combining the resulting text files into one document.
+
+# References
+
+- [ ] [Ten Years' Review of Mission Work in Madagascar, 1870-1880](https://books.google.ca/books?id=--slAQAAIAAJ)
